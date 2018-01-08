@@ -56,6 +56,7 @@ require('dbconect.php');
 <body>
 <div id="last">
 <h1>お問い合わせありがとうございました！</h1>
+<!-- hennnkou -->
 
 
 
