@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+  <title>お問い合わせ</title>
+  </head>
+  <body>
+ <!-- <h1>お問い合わせ情報入力</h1>
+  <form method="POST" action="check.php">
+    <div>
+        ニックネーム<br>
+        <input type="text" name="nickname" style="width:100px">
+    </div>
+    <div>
+        メールアドレス<br>
+        <input type="text" name="email" style="width: 200px">
+    </div>
+    <div>
+        お問い合わせ内容<br>
+        <textarea name="content" cols="40" rows="5"></textarea>
+    </div>
+    <input type="submit" value="送信">
+  </form>
+ -->
+<form class="form-horizontal" method="POST" action="check.php">
+<fieldset>
+
+<!-- Form Name -->
+<legend>お問い合わせ情報入力</legend>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="name">ニックネーム</label>  
+  <div class="col-md-4">
+  <input id="name" name="name" type="text" required="" class="form-control input-md" >
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="vorname">メールアドレス</label>  
+  <div class="col-md-4">
+  <input id="vorname" name="vorname" type="text" required="" class="form-control input-md" >
+    
+  </div>
+</div>
+
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="anschrift">お問い合わせ内容</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="anschrift" required="" name="anschrift"></textarea>
+  </div>
+</div>
+
+<!-- Button (Double) -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="anmelden"></label>
+  <div class="col-md-8">
+     <button id="anmelden" name="anmelden" class="btn btn-success">送信</button> 
+     <button  value="初期値に戻す"  type="reset" id="reset" name="reset" class="btn btn-danger">リセット</button>
+     
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+
+
+</body>
+</html>
